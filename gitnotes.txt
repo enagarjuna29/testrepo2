@@ -1,0 +1,54 @@
+Git tool-git
+----------------------------
+-Git is a version control system.
+-git devided into 2 types
+                        1. Centralized git
+                        2. Distributed git
+
+git installation:
+------------------------
+website: https//www.git-scm.com
+
+Architecture of git:
+-------------------------
+
+
+    Working Directory------>Staging------>Git(Local Repository)----->GitHub(Remote Repository)
+    ->Un-tracked           ->Tracked      ->Commited                  ->Remote
+      Files                  Files          Files                       files
+
+Create Sample project from local system :
+----------------------------------------------
+create folder: E:/Sampleproject
+ inside of the project, Right click & open "Git-Bash" then will open command prompt window
+
+1. create simple file by using linux command 
+    -> vim filename.extension
+
+     (a). *=>$ vim index.txt
+
+ *->press "i" for edit the command prompt
+     now you will type any information like below
+  this is nagarjuna
+
+ *->press "Esc" key and :wq for file save.
+
+2. To open existing file or add data to existing file 
+
+    ->$ vim filename.extension(existing file)
+    ->$ vim index.txt
+
+-> press "i" for edit cmd
+      now you will add extra data
+    
+	this is nagarjuna
+    	MTech-Cse
+    	Nellore
+     :wq for file save.
+
+3. Create a local Repository
+
+     (b). *=>git init       :create a local repository.
+ 
+     (c). *=>git add filename.extension    : add to files in staging area.
+          *=>git add .   (. represents all the files)
