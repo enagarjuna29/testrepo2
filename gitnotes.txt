@@ -77,3 +77,5 @@ note:-1. how to show all files in working directory.
       now display all commited files at local repository.
       
       
+              nagarjuna prepared git notes very well 
+	      anyone learn from this document
