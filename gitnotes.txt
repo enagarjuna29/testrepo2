@@ -49,6 +49,31 @@ create folder: E:/Sampleproject
 3. Create a local Repository
 
      (b). *=>git init       :create a local repository.
+     
+4. Adding files to Staging      
  
      (c). *=>git add filename.extension    : add to files in staging area.
+          
           *=>git add .   (. represents all the files)
+	  
+5. files commit to local repository
+      (d). *=>git commit -m "commited file information"
+          *=>git commit -m "this is my first commit"
+	  
+	  
+note:-1. how to show all files in working directory.
+
+     => ls
+     now display all created files
+     
+     2. how to show all files in staging area
+     
+     => git ls-files
+     now display all files at staging
+     
+     3. how to show all files in local repository.
+     
+     =>git log --oneline
+      now display all commited files at local repository.
+      
+      
